@@ -27,8 +27,8 @@ importers:
         specifier: ^8.2.2
         version: 8.24.4
       pnpm:
-        specifier: ^8.15.5
-        version: 8.15.9
+        specifier: ^10.34.5
+        version: 10.34.5
 
 packages:
 
@@ -349,9 +349,9 @@ packages:
   path-to-regexp@0.1.13:
     resolution: {integrity: sha512-A/AGNMFN3c8bOlvV9RreMdrv7jsmF9XIfDeCd87+I8RNg6s78BhJxMu69NEMHBSJFxKidViTEdruRwEk/WIKqA==}
 
-  pnpm@8.15.9:
-    resolution: {integrity: sha512-SZQ0ydj90aJ5Tr9FUrOyXApjOrzuW7Fee13pDzL0e1E6ypjNXP0AHDHw20VLw4BO3M1XhQHkyik6aBYWa72fgQ==}
-    engines: {node: '>=16.14'}
+  pnpm@10.34.5:
+    resolution: {integrity: sha512-pO4F8vc2WCVb1qiYWcBlpFwopX2u+uLIk6Fo7itzFow3uR6D5X6mdlStA/AwMXRkMOi84442LgQmBfuKvIAZLg==}
+    engines: {node: '>=18.12'}
     hasBin: true
 
   proxy-addr@2.0.7:
@@ -786,7 +786,7 @@ snapshots:
 
   path-to-regexp@0.1.13: {}
 
-  pnpm@8.15.9: {}
+  pnpm@10.34.5: {}
 
   proxy-addr@2.0.7:
     dependencies:
